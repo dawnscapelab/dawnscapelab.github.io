@@ -49,8 +49,8 @@ export default function Navbar() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-800 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link href="/" className="-m-1.5 p-1.5">
-                            <span className="sr-only">My Blog</span>
-                            <span className="text-2xl font-bold text-white">My Blog</span>
+                            <span className="sr-only">DawnScapeLab</span>
+                            <span className="text-2xl font-bold text-white">DawnScapeLab</span>
                         </Link>
                         <button
                             type="button"
