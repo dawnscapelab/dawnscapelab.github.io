@@ -1,11 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120">
-    <!-- Code bracket -->
-    <path d="M40 20 L10 60 L40 100" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M200 20 L230 60 L200 100" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f3f4f6"/>
 
-    <!-- Slash for closing tag -->
-    <line x1="100" y1="20" x2="140" y2="100" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+    <!-- Sun (representing dawn) -->
+    <circle cx="400" cy="250" r="80" fill="#f59e0b"/>
+    <circle cx="400" cy="250" r="100" fill="none" stroke="#f59e0b" stroke-width="4" opacity="0.5"/>
+    <circle cx="400" cy="250" r="120" fill="none" stroke="#f59e0b" stroke-width="4" opacity="0.3"/>
 
-    <!-- Dot for "i" in coding -->
-    <circle cx="120" cy="20" r="8" fill="#f59e0b"/>
+    <!-- Landscape silhouette -->
+    <path d="M0 400 Q 200 350, 400 400 T 800 380 L 800 600 L 0 600 Z" fill="#4b5563"/>
+
+    <!-- Lab flask -->
+    <path d="M350 250 L 330 350 Q 330 400, 380 400 L 420 400 Q 470 400, 470 350 L 450 250 Z" fill="#e0e7ff" stroke="#4338ca" stroke-width="4"/>
+    <path d="M370 250 L 430 250" stroke="#4338ca" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Bubbles in the flask -->
+    <circle cx="380" cy="320" r="10" fill="#818cf8"/>
+    <circle cx="410" cy="350" r="15" fill="#818cf8"/>
+    <circle cx="390" cy="380" r="12" fill="#818cf8"/>
+
+    <!-- Abstract code/circuit lines -->
+    <path d="M50 100 L 150 100 L 200 150 L 300 150" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M500 100 L 600 100 L 650 150 L 750 150" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="100" r="5" fill="#3b82f6"/>
+    <circle cx="200" cy="150" r="5" fill="#3b82f6"/>
+    <circle cx="600" cy="100" r="5" fill="#3b82f6"/>
+    <circle cx="650" cy="150" r="5" fill="#3b82f6"/>
+
+    <!-- Innovation sparks -->
+    <polygon points="180,50 200,90 240,100 200,110 180,150 160,110 120,100 160,90" fill="#eab308"/>
+    <polygon points="620,50 640,90 680,100 640,110 620,150 600,110 560,100 600,90" fill="#eab308"/>
 </svg>

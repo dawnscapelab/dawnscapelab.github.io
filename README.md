@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 새로운 시작을 의미하는 긍정적인 브랜드명
+- 1인 기업으로서 유연성과 다양성을 가진 이름
+- 'dawn'(새벽)과 'landscape'(풍경)의 조합
+- 새로운 시작과 다양한 가능성을 암시
+- 광범위한 활동을 암시 (landscape는 다양한 분야를 포괄할 수 있음)
+- 기술이나 디자인 관련 사업에 적합
+- DawnScapeLab 의미
+    - 단어 분석
+        - Dawn: 새벽, 시작, 새로운 기회
+        - Scape: 풍경, 광경, 전망
+        - Lab: 실험실, 혁신의 공간
+    - 종합적 의미
+        - "DawnScapeLab"은 "새로운 시작의 풍경을 만들어가는 혁신의 공간"으로 해석
+    - 비즈니스 철학 연계
+        - 혁신과 창의성: 'Lab'은 지속적인 실험과 혁신을 상징합니다.
+        - 새로운 시작: 'Dawn'은 매일 새로운 아이디어와 도전을 시작함을 의미합니다.
+        - 넓은 시야: 'Scape'는 다양한 분야를 아우르는 폭넓은 시각을 나타냅니다.
+    - 비전 설정
+        - "DawnscapeLab은 매일 새로운 아이디어의 지평을 열어, 혁신적인 솔루션을 만들어내는 창의적 공간입니다."
+    - 핵심 가치
+        - 혁신 (Innovation): 끊임없는 새로운 시도
+        - 유연성 (Flexibility): 다양한 분야를 아우르는 적응력
+        - 창의성 (Creativity): 독창적인 아이디어 창출
+        - 성장 (Growth): 지속적인 학습과 발전
+    - 슬로건
+        - "미래를 그리는 실험실" (Sketching the Future, One Dawn at a Time)
+    - 비전
+        - "모든 아이디어가 현실이 되는 세상을 만든다."
+    - 미션
+        - "혁신적인 실험을 통해 미래의 문제를 해결하고 새로운 가치를 창출한다."
+    - 미션이 포함하고 있는 핵심 요소
+        - 혁신 (Innovation): "혁신적인"이라는 단어를 통해 창의적이고 새로운 접근 방식을 강조합니다.
+        - 실험 (Experimentation): "실험"이라는 단어는 시도와 탐구의 과정을 나타냅니다.
+        - 미래 지향성 (Future-oriented): "미래의 문제"라는 표현을 통해 선제적이고 미래 지향적인 접근을 강조합니다.
+        - 문제 해결 (Problem-solving): "문제를 해결"한다는 직접적인 언급을 통해 실용적인 목표를 제시합니다.
+        - 가치 창출 (Value creation): "새로운 가치를 창출"함으로써 단순한 문제 해결을 넘어 적극적인 가치 제공을 목표로 합니다.
+        - 행동 지향성 (Action-oriented): "해결하고", "창출한다"와 같은 동사 사용으로 적극적인 행동을 강조합니다.
