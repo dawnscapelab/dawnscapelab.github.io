@@ -28,39 +28,43 @@ export default function Home() {
     return (
         <div className="bg-gray-50">
             {/* Hero Section */}
-            <div className="relative bg-white overflow-hidden">
-                <div className="max-w-7xl mx-auto">
-                    <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                        <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                            <div className="sm:text-center lg:text-left">
-                                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                                    <span className="block xl:inline">Welcome to</span>{' '}
-                                    <span className="block text-indigo-600 xl:inline">DawnScapeLab</span>
+            <div className="relative bg-white">
+                <div className="mx-auto max-w-7xl">
+                    <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+                        <svg
+                            viewBox="0 0 100 100"
+                            preserveAspectRatio="none"
+                            aria-hidden="true"
+                            className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
+                        >
+                            <polygon points="0,0 90,0 50,100 0,100" />
+                        </svg>
+                        <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+                            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+                                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                                    <span className="block">미래를 그리다,</span>{' '}
+                                    <span className="block text-indigo-600">새로운 아침과 함께</span>
                                 </h1>
-                                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                    Explore the intersection of technology and creativity. Dive into web development insights, tutorials, and more.
+                                <p className="mt-6 text-lg leading-8 text-gray-600">
+                                    혁신과 창의성이 만나는 곳, DawnScapeLab에 오신 것을 환영합니다. 우리는 혁신적인 실험을 통해 미래의 문제를 해결하고 새로운 가치를 창출하는 사명을 가지고 있습니다.
                                 </p>
-                                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                                    <div className="rounded-md shadow">
-                                        <Link href="/blog" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                                            Read Blog
-                                        </Link>
-                                    </div>
-                                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                                        <Link href="/about" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                                            About Me
-                                        </Link>
-                                    </div>
+                                <div className="mt-10 flex items-center gap-x-6">
+                                    <Link href="/blog" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                        실험실 둘러보기
+                                    </Link>
+                                    <Link href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+                                        우리의 비전 <span aria-hidden="true">→</span>
+                                    </Link>
                                 </div>
                             </div>
-                        </main>
+                        </div>
                     </div>
                 </div>
-                <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                     <Image
-                        className="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full"
                         src="/images/hero-image.svg"
-                        alt="Web Development Hero Image"
+                        alt="DawnScapeLab Hero Image"
+                        className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
                         width={800}
                         height={600}
                     />
@@ -70,7 +74,7 @@ export default function Home() {
             {/* Recent Posts Section */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Recent Posts
+                    Latest Experiments
                 </h2>
                 <div className="mt-6 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                     {recentPosts.map((post) => (
@@ -83,7 +87,7 @@ export default function Home() {
                                     {post.excerpt}
                                 </p>
                                 <p className="mt-3 text-sm font-medium text-indigo-600">
-                                    Read full story
+                                    Dive into the experiment
                                 </p>
                             </Link>
                         </div>
@@ -95,7 +99,7 @@ export default function Home() {
             <div className="bg-gray-100">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Explore Categories
+                        Our Innovation Spaces
                     </h2>
                     <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         {categories.map((category) => (
@@ -109,7 +113,7 @@ export default function Home() {
                                         {category.charAt(0).toUpperCase() + category.slice(1)}
                                     </p>
                                     <p className="text-sm text-gray-500 truncate">
-                                        Explore posts in {category}
+                                        Explore innovations in {category}
                                     </p>
                                 </div>
                             </Link>
