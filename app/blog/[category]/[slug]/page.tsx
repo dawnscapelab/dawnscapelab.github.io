@@ -1,26 +1,22 @@
-import {getPostData, getSortedPostsData} from '@/lib/posts'
+import { getPostData, getSortedPostsData } from '@/lib/posts'
+import BlogPostDetail from './BlogPostDetail'
 
 type Props = {
-    params: { category: string, slug: string }
+    params: { category: string; slug: string }
 }
 
-export default function BlogPost({ params }: Props) {
-    const { category, slug } = params;
-    const post = getPostData(category, slug)
+export default async function BlogPostPage({ params }: Props) {
+    const { category, slug } = params
+    const postData = await getPostData(category, slug)
 
-    return (
-        <article className="prose lg:prose-xl mx-auto">
-            <h1>{post.title}</h1>
-            <p className="text-gray-500">{post.date}</p>
-            <div dangerouslySetInnerHTML={{ __html: post.content }} />
-        </article>
-    )
+    return <BlogPostDetail post={postData} />
 }
 
 export async function generateStaticParams() {
     const posts = getSortedPostsData()
+
     return posts.map((post) => ({
         category: post.category,
-        slug: post.id,
+        slug: post.slug,
     }))
 }
