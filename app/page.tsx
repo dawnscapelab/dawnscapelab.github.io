@@ -49,8 +49,8 @@ export default function Home() {
                                     혁신과 창의성이 만나는 곳, DawnScapeLab에 오신 것을 환영합니다. 우리는 혁신적인 실험을 통해 미래의 문제를 해결하고 새로운 가치를 창출하는 사명을 가지고 있습니다.
                                 </p>
                                 <div className="mt-10 flex items-center gap-x-6">
-                                    <Link href="/blog" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                                        실험실 둘러보기
+                                    <Link href="/knowledge-base" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                        지식 저장소 둘러보기
                                     </Link>
                                     <Link href="/about" className="text-sm font-semibold leading-6 text-gray-900">
                                         우리의 비전 <span aria-hidden="true">→</span>
@@ -74,12 +74,12 @@ export default function Home() {
             {/* Recent Posts Section */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Latest Experiments
+                    최근 실험 결과
                 </h2>
                 <div className="mt-6 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                     {recentPosts.map((post) => (
                         <div key={post.id}>
-                            <Link href={`/blog/${post.id}`}>
+                            <Link href={`/knowledge-base/${post.id}`}>
                                 <h3 className="mt-2 text-xl font-semibold text-gray-900">
                                     {post.title}
                                 </h3>
@@ -87,7 +87,7 @@ export default function Home() {
                                     {post.excerpt}
                                 </p>
                                 <p className="mt-3 text-sm font-medium text-indigo-600">
-                                    Dive into the experiment
+                                    자세히 알아보기
                                 </p>
                             </Link>
                         </div>
@@ -99,11 +99,11 @@ export default function Home() {
             <div className="bg-gray-100">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Our Innovation Spaces
+                        혁신의 영역
                     </h2>
                     <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                         {categories.map((category) => (
-                            <Link key={category} href={`/blog/category/${category}`} className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                            <Link key={category} href={`/knowledge-base/category/${category}`} className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                                 <div className="flex-shrink-0">
                                     {categoryIcons[category] || categoryIcons.default}
                                 </div>
@@ -113,7 +113,7 @@ export default function Home() {
                                         {category.charAt(0).toUpperCase() + category.slice(1)}
                                     </p>
                                     <p className="text-sm text-gray-500 truncate">
-                                        Explore innovations in {category}
+                                        {category} 분야의 혁신 탐험하기
                                     </p>
                                 </div>
                             </Link>
