@@ -94,3 +94,9 @@ export async function getPostData(category: string, slug: string): Promise<PostD
         content: contentHtml,
     }
 }
+
+export function getAllCategories(): string[] {
+    const posts = getSortedPostsData()
+    const categories = new Set(posts.map(post => post.category))
+    return Array.from(categories)
+}
