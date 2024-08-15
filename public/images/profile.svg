@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Code bracket -->
+    <path d="M30 20 L10 50 L30 80" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70 20 L90 50 L70 80" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Slash for closing tag -->
+    <line x1="45" y1="20" x2="55" y2="80" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+</svg>

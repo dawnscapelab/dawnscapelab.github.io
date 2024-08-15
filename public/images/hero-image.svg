@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120">
+    <!-- Code bracket -->
+    <path d="M40 20 L10 60 L40 100" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200 20 L230 60 L200 100" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Slash for closing tag -->
+    <line x1="100" y1="20" x2="140" y2="100" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Dot for "i" in coding -->
+    <circle cx="120" cy="20" r="8" fill="#f59e0b"/>
+</svg>
