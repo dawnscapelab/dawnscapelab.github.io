@@ -1,25 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import {getAllCategories, getSortedPostsData} from '@/lib/posts'
-
-// 카테고리별 아이콘 매핑
-const categoryIcons: { [key: string]: JSX.Element } = {
-    default: (
-        <svg className="h-10 w-10 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-        </svg>
-    ),
-    nextjs: (
-        <svg className="h-10 w-10 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-    ),
-    react: (
-        <svg className="h-10 w-10 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
-        </svg>
-    ),
-}
+import CategoryIcon from '@/components/CategoryIcon';
 
 export default function Home() {
     const recentPosts = getSortedPostsData().slice(0, 3)  // Get the 3 most recent posts
@@ -105,7 +87,7 @@ export default function Home() {
                         {categories.map((category) => (
                             <Link key={category} href={`/knowledge-base/category/${category}`} className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                                 <div className="flex-shrink-0">
-                                    {categoryIcons[category] || categoryIcons.default}
+                                    <CategoryIcon category={category} />
                                 </div>
                                 <div className="flex-1 min-w-0">
                                     <span className="absolute inset-0" aria-hidden="true" />
