@@ -1,7 +1,7 @@
 ---
 title: '최신 Android 프로젝트 설정하기: Gradle Version Catalogs 활용'
 slug: android-project-setup-with-gradle-version-catalogs
-date: '2024-08-15'
+date: '2024-08-15 15:04:00'
 category: "android"
 tags: ["android", "gradle", "version-catalogs", "project-setup"]
 excerpt: 'Gradle Version Catalogs를 활용하여 Android 프로젝트의 종속성을 효율적으로 관리하는 방법을 알아봅니다.'

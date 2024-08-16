@@ -1,7 +1,7 @@
 ---
 title: '안드로이드 아키텍처 컴포넌트 설정: ViewModel, LiveData, Room, 그리고 Retrofit'
 slug: android-architecture-components-setup
-date: '2024-08-16'
+date: '2024-08-16 20:29:00'
 category: "android"
 tags: ["android", "architecture", "viewmodel", "livedata", "room", "retrofit"]
 excerpt: '안드로이드 개발의 핵심 아키텍처 컴포넌트인 ViewModel, LiveData, Room, 그리고 Retrofit의 설정 및 사용법을 알아봅니다.'

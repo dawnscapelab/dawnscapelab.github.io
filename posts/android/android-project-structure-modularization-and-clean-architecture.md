@@ -1,7 +1,7 @@
 ---
 title: '안드로이드 프로젝트 구조화: 모듈화와 클린 아키텍처 적용'
 slug: android-project-structure-modularization-and-clean-architecture
-date: '2024-08-16'
+date: '2024-08-16 20:39:00'
 category: "android"
 tags: ["android", "architecture", "clean-architecture", "modularization"]
 excerpt: '안드로이드 프로젝트를 효율적으로 구조화하는 방법을 알아봅니다. 모듈화와 클린 아키텍처를 적용하여 확장 가능하고 유지보수가 쉬운 앱을 만드는 과정을 단계별로 설명합니다.'

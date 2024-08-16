@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { getSortedPostsData } from "@/lib/posts";
+import { formatDate } from '@/lib/utils'
 
 export default function BlogPostList() {
     const posts = getSortedPostsData()
@@ -17,7 +18,7 @@ export default function BlogPostList() {
                             <article key={`${post.category}-${post.id}`} className="flex max-w-xl flex-col items-start justify-between">
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time dateTime={post.date} className="text-gray-500">
-                                        {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                                        {formatDate(post.date)}
                                     </time>
                                     <span className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                                         {post.category}

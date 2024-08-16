@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import { parseDate } from './utils'
 
 export type PostListData = {
     id: string;
@@ -62,11 +63,9 @@ export function getSortedPostsData(): PostListData[] {
 
     // 날짜순으로 정렬
     return allPostsData.sort((a, b) => {
-        if (a.date < b.date) {
-            return 1
-        } else {
-            return -1
-        }
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB.getTime() - dateA.getTime();
     })
 }
 
@@ -83,12 +82,21 @@ export async function getPostData(category: string, slug: string): Promise<PostD
         .process(matterResult.content)
     const contentHtml = processedContent.toString()
 
+    let date = matterResult.data.date
+    if (typeof date === 'string') {
+        // 문자열을 Date 객체로 변환 (KST -> UTC)
+        date = parseDate(date)
+    } else if (!(date instanceof Date)) {
+        // 유효하지 않은 날짜의 경우 현재 시간 사용
+        date = new Date()
+    }
+
     // 데이터와 id, content 결합
     return {
         id: `${category}/${slug}`,
         slug: slug,
         title: matterResult.data.title,
-        date: matterResult.data.date,
+        date: date,
         excerpt: matterResult.data.excerpt,
         category: category,
         content: contentHtml,

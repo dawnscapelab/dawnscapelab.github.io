@@ -1,7 +1,7 @@
 ---
 title: 'Next.js로 정적 블로그 만들기: 시작부터 배포까지'
 slug: creating-static-blog-with-nextjs
-date: '2024-08-16'
+date: '2024-08-16 20:45:00'
 category: "nextjs"
 tags: ["nextjs", "react", "web development", "static site generation", "blogging"]
 excerpt: 'Next.js를 사용하여 개인 정적 블로그를 만드는 과정을 처음부터 끝까지 알아봅니다. 초보자도 쉽게 따라할 수 있는 단계별 가이드입니다.'
