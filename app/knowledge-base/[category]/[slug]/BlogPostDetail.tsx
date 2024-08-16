@@ -1,4 +1,5 @@
 import { PostData } from '@/lib/posts'
+import { formatDate } from '@/lib/utils'
 
 type Props = {
     post: PostData
@@ -20,7 +21,7 @@ export default function BlogPostDetail({ post }: Props) {
                     />
 
                     <div className="mt-10 text-sm">
-                        <p>Published on: {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                        <p>Published on: {formatDate(post.date)}</p>
                     </div>
                 </div>
             </article>
