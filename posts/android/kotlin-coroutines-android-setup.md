@@ -1,7 +1,7 @@
 ---
 title: 'Kotlin Coroutines로 비동기 프로그래밍 시작하기: 안드로이드 프로젝트 설정'
 slug: kotlin-coroutines-android-setup
-date: '2024-08-16'
+date: '2024-08-16 20:33:00'
 category: "android"
 tags: ["android", "kotlin", "coroutines", "asynchronous programming"]
 excerpt: 'Kotlin Coroutines를 안드로이드 프로젝트에 설정하고 기본 개념을 이해하는 방법을 알아봅니다.'

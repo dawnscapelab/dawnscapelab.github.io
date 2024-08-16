@@ -1,7 +1,7 @@
 ---
 title: 'Android 개발 최적화: KSP(Kotlin Symbol Processing) 도입하기'
 slug: optimizing-android-development-with-ksp
-date: '2024-08-16'
+date: '2024-08-16 05:53:00'
 category: "android"
 tags: ["android", "kotlin", "ksp", "optimization"]
 excerpt: 'KSP(Kotlin Symbol Processing)를 안드로이드 프로젝트에 도입하여 빌드 성능을 향상시키는 방법을 알아봅니다.'

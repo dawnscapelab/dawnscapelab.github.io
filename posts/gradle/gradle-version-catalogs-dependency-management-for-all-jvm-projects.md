@@ -1,7 +1,7 @@
 ---
 title: 'Gradle Version Catalogs: 모든 JVM 프로젝트를 위한 의존성 관리 도구'
 slug: gradle-version-catalogs-dependency-management-for-all-jvm-projects
-date: '2024-08-16'
+date: '2024-08-16 19:56:00'
 category: "gradle"
 tags: ["gradle", "dependency management", "java", "kotlin", "android"]
 excerpt: 'Gradle Version Catalogs를 사용하여 Java, Kotlin, Android 등 모든 JVM 기반 프로젝트의 의존성을 효율적으로 관리하는 방법을 알아봅니다.'
