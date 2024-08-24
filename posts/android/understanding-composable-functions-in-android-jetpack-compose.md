@@ -7,8 +7,6 @@ tags: ["android", "jetpack compose", "ui development", "kotlin"]
 excerpt: 'Jetpack Compose의 핵심인 컴포저블 함수에 대해 알아보고, 안드로이드 UI 개발의 새로운 패러다임을 이해해봅시다.'
 ---
 
-# 안드로이드 Jetpack Compose: 컴포저블 함수 이해하기
-
 안드로이드 UI 개발의 혁신적인 변화를 가져온 Jetpack Compose의 핵심 개념인 '컴포저블 함수(Composable Function)'에 대해 알아보겠습니다.
 
 ## 들어가며: 누구를 위한 글인가요?
