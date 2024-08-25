@@ -1,7 +1,7 @@
 ---
 title: 'Jetpack Compose에서 by remember 이해하기'
 slug: understanding-by-remember-in-jetpack-compose
-date: "2024-08-24 10:00:00"
+date: "2024-08-24 09:17:00"
 category: "android"
 tags: ["android", "jetpack compose", "kotlin", "state management"]
 excerpt: 'Jetpack Compose에서 by remember를 사용하여 효율적으로 상태를 관리하는 방법을 알아봅니다.'

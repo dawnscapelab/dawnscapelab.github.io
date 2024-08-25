@@ -1,7 +1,7 @@
 ---
 title: '안드로이드 Jetpack Compose: 컴포저블 함수 이해하기'
 slug: understanding-composable-functions-in-android-jetpack-compose
-date: "2024-08-24 10:00:00"
+date: "2024-08-24 09:07:00"
 category: "android"
 tags: ["android", "jetpack compose", "ui development", "kotlin"]
 excerpt: 'Jetpack Compose의 핵심인 컴포저블 함수에 대해 알아보고, 안드로이드 UI 개발의 새로운 패러다임을 이해해봅시다.'

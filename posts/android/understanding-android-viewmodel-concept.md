@@ -1,7 +1,7 @@
 ---
 title: '안드로이드 ViewModel 개념 이해하기'
 slug: understanding-android-viewmodel-concept
-date: "2024-08-24 10:00:00"
+date: "2024-08-24 10:53:00"
 category: "android"
 tags: ["android", "viewmodel", "architecture components", "kotlin"]
 excerpt: '안드로이드 앱 개발에서 ViewModel의 개념과 중요성, 그리고 기본적인 사용법을 알아봅니다.'

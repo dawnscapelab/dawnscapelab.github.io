@@ -1,7 +1,7 @@
 ---
 title: '안드로이드 앱 Context 개념 이해하기'
 slug: understanding-android-app-context
-date: "2024-08-25 10:00:00"
+date: "2024-08-25 09:46:00"
 category: "android"
 tags: ["android", "context", "app development"]
 excerpt: '안드로이드 개발의 핵심 개념인 Context에 대해 알아봅니다. Context가 무엇인지, 왜 중요한지, 그리고 어떻게 사용하는지 초보자도 이해하기 쉽게 설명합니다.'
