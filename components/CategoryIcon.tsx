@@ -1,4 +1,4 @@
-import { FaAndroid, FaReact, FaFolder, FaInfinity, FaCode, FaUsers } from 'react-icons/fa';
+import { FaAndroid, FaReact, FaFolder, FaInfinity, FaCode, FaUsers, FaClipboardCheck } from 'react-icons/fa';
 import { SiGradle } from 'react-icons/si';
 
 const categoryIcons: { [key: string]: JSX.Element } = {
@@ -8,6 +8,7 @@ const categoryIcons: { [key: string]: JSX.Element } = {
     devops: <FaInfinity className="h-10 w-10 text-indigo-600" />, // DevOps 카테고리를 위한 무한대 아이콘 추가
     'software-development': <FaCode className="h-10 w-10 text-indigo-600" />, // 소프트웨어 개발 카테고리를 위한 코드 아이콘 추가
     leadership: <FaUsers className="h-10 w-10 text-indigo-600" />, // Leadership 카테고리를 위한 그룹 아이콘 추가
+    'software-testing': <FaClipboardCheck className="h-10 w-10 text-indigo-600" />, // 소프트웨어 테스팅 카테고리를 위한 클립보드 체크 아이콘 추가
 };
 
 export default function CategoryIcon({ category }: { category: string }) {
