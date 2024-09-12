@@ -1,5 +1,5 @@
 import { FaAndroid, FaReact, FaFolder, FaInfinity, FaCode, FaUsers, FaClipboardCheck, FaLaptopCode, FaDesktop, FaRobot,
-    FaNodeJs, FaAtom, FaShieldAlt, FaIndustry, FaTasks, FaCheckCircle, FaJava } from 'react-icons/fa';
+    FaNodeJs, FaAtom, FaShieldAlt, FaIndustry, FaTasks, FaCheckCircle, FaJava, FaBrain } from 'react-icons/fa';
 import { SiGradle } from 'react-icons/si';
 
 const categoryIcons: { [key: string]: JSX.Element } = {
@@ -20,6 +20,7 @@ const categoryIcons: { [key: string]: JSX.Element } = {
     'project-management': <FaTasks className="h-10 w-10 text-indigo-600" />,
     'quality-assurance': <FaCheckCircle className="h-10 w-10 text-indigo-600" />,
     java: <FaJava className="h-10 w-10 text-indigo-600" />,
+    ai: <FaBrain className="h-10 w-10 text-indigo-600" />,
 };
 
 export default function CategoryIcon({ category }: { category: string }) {
