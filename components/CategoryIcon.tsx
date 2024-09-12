@@ -27,6 +27,7 @@ const categoryIcons: { [key: string]: JSX.Element } = {
             <FaBrain className="absolute h-6 w-6 text-indigo-400 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
         </div>
     ),
+    'software-engineering': <FaLaptopCode className="h-10 w-10 text-indigo-600" />,
 };
 
 export default function CategoryIcon({ category }: { category: string }) {
