@@ -28,6 +28,7 @@ const categoryIcons: { [key: string]: JSX.Element } = {
         </div>
     ),
     'software-engineering': <FaLaptopCode className="h-10 w-10 text-indigo-600" />,
+    machinelearning: <FaBrain className="h-10 w-10 text-indigo-600" />,
 };
 
 export default function CategoryIcon({ category }: { category: string }) {
