@@ -1,10 +1,10 @@
 ---
-title: 'Getting Started with Create React App: A Beginner-Friendly Guide'
+title: 'Create React App으로 시작하는 리액트 개발: 초보자를 위한 가이드'
 slug: getting-started-with-create-react-app
 date: "2024-09-18 21:47:00"
 category: "react"
 tags: ["react", "create-react-app", "web development", "frontend"]
-excerpt: 'Learn how to set up and use Create React App to kickstart your React development journey with ease.'
+excerpt: 'Create React App을 사용하여 손쉽게 리액트 개발을 시작하는 방법을 알아봅니다. 초보자도 쉽게 따라할 수 있는 단계별 가이드.'
 ---
 
 ## 들어가며
